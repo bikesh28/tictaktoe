@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            height: 50vh;
+            width: 50vh;
+            align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+
+    <table border="solid 1px" id="tab" >
+        <tr>
+           <td id="11"></div></div></td> 
+            <td id="12"></td>
+            <td id="13"></td>
+        </tr>
+        <tr>
+            <td id="21"></td>
+            <td id="22"></td>
+            <td id="23"></td>
+        </tr>
+        <tr>
+            <td id="31"></td>
+            <td id="32"></td>
+            <td id="33"></td>
+        </tr>
+    </table>
+
+    <script>
+        var cells=document.getElementsByTagName('td');
+        var c11=cells[0].innerHTML;
+        console.log(c11);
+        function one(){
+            c11="X";
+        }
+
+    </script>
+    
+</body>
+</html>
