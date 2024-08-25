@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    text-align: center;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #e4e2d0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+td {
+    height: 100px;
+    width: 100px;
+    font-size: 89px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: #a9a9a9;
+}
+
+td.X {
+    background-color: #25b528; 
+    color: #ffffff;
+}
+
+td.O {
+    background-color: #cd1c1c;
+    color: #ffffff;
+}
+
+#winner {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #21a20d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a5c07;
+}
+#textButton,div{
+    text-align: center;
+    height: 15vh ;
+    
+}
+
+#table{
+height: 309px;
+margin: none;
+padding: 0px,0px,0px,0px;
+
+
+}
